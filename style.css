@@ -19,9 +19,7 @@ body {
     padding-right: 20px;
 }
 
-.section-box {
-    max-width: 900px;
-    margin: 40px auto;
+.frosted-box {
     padding: 25px;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.7);
@@ -30,6 +28,11 @@ body {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     transition: background 0.3s ease;
+}
+
+.section-box {
+    max-width: 1000px;
+    margin: 40px auto;
 }
 
 .profile-container {
@@ -123,13 +126,6 @@ body {
     max-width: 1000px;
     margin: 60px auto;
     padding: 40px 30px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    transition: background 0.3s ease;
 }
 
     .blog-post h1 {
@@ -156,3 +152,34 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+    font-size: 0.95em;
+    margin-top: 40px;
+}
+
+.back-home-wrapper {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.back-home-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1em;
+    color: white;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+    .back-home-button:hover {
+        background-color: #303f9f;
+    }
