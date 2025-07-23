@@ -1,3 +1,3 @@
-#Personal Blog
+# Personal Blog
 
 https://gabbyvbyers.github.io/Personal-Blog/
