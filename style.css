@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #bbdefb, #f8bbd0);
+    color: #333;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.home-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-box {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.profile-pic {
+    display: block;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background: white;
+}
+
+.bio-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+}
+
+
+.blog-links {
+    text-align: center;
+}
+
+    .blog-links h2 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+        color: #3f51b5;
+    }
+
+    .blog-links ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    
+
+    .blog-links a {
+        color: #1565c0;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.1em;
+        transition: color 0.2s ease;
+    }
+
+        .blog-links a:hover {
+            color: #512da8;
+            text-decoration: underline;
+        }
+
+
+.social-links {
+    text-align: center;
+}
+
+    .social-links h2 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+        color: #3f51b5;
+    }
+
+    .social-links ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social-links li a {
+        color: #1565c0;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.1em;
+        transition: color 0.2s ease;
+    }
+
+        .social-links li a:hover {
+            color: #512da8;
+            text-decoration: underline;
+        }
+
+.blog-post {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+    .blog-post h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #3f51b5;
+        text-align: center;
+    }
+
+    .blog-post p {
+        margin-bottom: 15px;
+        text-align: justify;
+    }
